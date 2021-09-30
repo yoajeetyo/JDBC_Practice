@@ -35,8 +35,8 @@ public class CreateTable {
          + "ID INT NOT NULL, "
          + "NAME VARCHAR (20) NOT NULL, "
          + "AGE INT NOT NULL, "
-         + "SALARY DECIMAL (18, 2), "
-         + "ADDRESS CHAR (25) , "
+         + "SALARY DOUBLE (18, 2), "
+         + "ADDRESS VARCHAR (200) , "
          + "PRIMARY KEY (ID))";
       stmt.execute(query);
       System.out.println("Table Created......");
